@@ -3,7 +3,7 @@ import jade from 'gulp-jade';
 import sass from 'gulp-sass';
 import plumber from 'gulp-plumber';
 import notify from 'gulp-notify';
-import browserify from 'browserify'
+import browserify from 'browserify';
 import babelify from 'babelify';
 import runSequence from 'run-sequence';
 import browserSync from 'browser-sync';
