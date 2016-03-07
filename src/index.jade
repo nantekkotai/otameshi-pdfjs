@@ -5,5 +5,12 @@ html(lang="ja")
     link(rel='stylesheet', href='main.css')
   body
     h1 pdfjs test
-    div#pdf
+    div#container
+      canvas#viewer
+      div#textLayer
+    script(src='./pdfjs-dist/build/pdf.js')
+    //script(src='./pdfjs-dist/build/pdf.worker.js')
+    //script(src='./pdfjs-dist/web/compatibility.js')
+    //script(src='./pdfjs-dist/web/debugger.js')
+    //script(src='./pdfjs-dist/web/l10n.js')
     script(src='./main.js', charset='UTF-8')
